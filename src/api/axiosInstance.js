@@ -2,7 +2,7 @@ import axios from "axios";
 import { generateJwtToken } from "./generateJwtToken";
 
 const axiosInstance = axios.create({
-    baseURL : "http://localhost:8080/eobs",
+    baseURL : "http://172.16.1.107:8010/employee-onboarding-system/eobs",
     headers :  {
         'Content-Type': 'application/json',
     }
