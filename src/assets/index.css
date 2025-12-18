@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html, body, #root {
+  height: 100%;
+}
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-content {
+  flex: 1;
+}
+.loading{
+  margin: 10px 0px;
+}
+
+/* ===== Footer Styles ===== */
+.footer {
+  background-color: var(--main-color);
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}
+@media (max-width: 600px) {
+.footer {
+    font-size: 11px;
+    letter-spacing: 0px;
+}
+}

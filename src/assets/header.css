@@ -1,0 +1,41 @@
+:root {
+  --main-color: #2c476d;
+}
+
+.css-ptdwpq-MuiPaper-root-MuiAppBar-root{
+    background-color: var(--main-color) !important;
+}
+.vit-logo{
+    width: 200px;
+    height: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.profile-text{
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: flex;
+}
+.icon-container{
+  margin-right: 10px;
+}
+.icon-container .profile-icon{
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .vit-logo {
+    width: 170px;
+    height: 45px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .profile-btn{
+      padding: 0px !important;
+      margin-left: 0px !important;
+  }
+  .check-list-title .title {
+      font-size: 14px;
+  }
+}

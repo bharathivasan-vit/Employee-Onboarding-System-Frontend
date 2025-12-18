@@ -1,0 +1,32 @@
+:root {
+  --main-color: #2c476d;
+}
+.dashboard-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.content{
+    width: 800px;
+}
+.check-list-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.check-list-title .title{
+    font-size: 16px;
+}
+
+@media (max-width: 900px) {
+.content{
+    width: 95%;
+}
+}
+@media (max-width: 600px) {
+  .dashboard-container{
+    margin: 20px 0px;
+}
+}
